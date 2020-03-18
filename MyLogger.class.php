@@ -1,5 +1,6 @@
 <?php
-class MyLogger {
+class MyLogger 
+{
     public function warning($message) {
         $this->log("WARNING: " . $message);
     }
